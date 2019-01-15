@@ -1,0 +1,41 @@
+// function calculator
+
+function calculator(num1,num2,str){
+        
+    if (str==="add"){
+          return num1+num2;}
+
+   else if(str==="subtract"){
+        return num1-num2;}
+
+   else if(str==="divide"){
+        return num1/num2;}
+        
+   else if(str==="multiply"){
+       return num1*num2;}
+
+  }//end function calculator
+
+
+// call function calculator
+calculator(1, 2, "add");
+calculator(1, 2, "subtract");
+calculator(1, 2, "divide");
+calculator(1, 2, "multiply");
+
+
+// function reverse
+
+ function reverse(str){
+       var splitStr = str.split(""); // first split the string like {"b","a","d"}
+       var strReverse=splitStr.reverse(); //used method reverse {"d","a","b"}
+       var joinStr = strReverse.join("");//used method join {"bad"}
+         
+         return joinStr; //return reverse string :)
+}
+
+//call function reverse
+reverse("bad");
+reverse("good");
+reverse("very bad");
+reverse("very good");
