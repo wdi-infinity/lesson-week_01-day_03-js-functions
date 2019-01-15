@@ -1,0 +1,21 @@
+"Problem 1"
+function add (num1, num2) {
+    return num1 + num2
+}
+add(1,2)
+3
+function substract (num1, num2) {
+    return num1 - num2
+}
+substract (1,2)
+-1
+function divide (num1, num2) {
+    return num1 / num2
+}
+divide (1,2)
+0.5
+function multiply (num1, num2) {
+    return num1 * num2
+}
+multiply (1,2)
+2
