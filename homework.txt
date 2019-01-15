@@ -1,0 +1,40 @@
+Create a calculator
+
+```calculator(1, 2, "add") // should return 3 
+calculator(1, 2, "subtract") // should return -1
+calculator(1, 2, "divide") // should return .5
+calculator(1, 2, "multiply") // should return 2```
+
+function calculator(num1,num2,opeartion){
+  return add = (num1+num2)
+}
+calculator(1,2)
+3
+function calculator(num1,num2,opeartion){
+  return sub = (num1-num2)
+}
+sub(1,2)
+calculator(1,2)
+-1
+function calculator(num1,num2,opeartion){
+  return divide = (num1/num2)
+}
+calculator(1,2)
+0.5
+function calculator(num1,num2,opeartion){
+  return multiply = (num1*num2)
+}
+calculator(1,2)
+2
+
+
+
+
+
+Write a function to reverse the letters in a word
+```reverse("caterpillar") // should return "rallipretac"``
+
+function reverseLetter(str) {
+  return reverseString(str);
+}
+reverseLetter("caterpillar"`));
