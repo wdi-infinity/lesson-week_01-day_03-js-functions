@@ -1,0 +1,30 @@
+//part#1 in the homework
+function calculator (num1,num2,operation)
+{
+if (operation==="add")
+{
+return num1+num2;
+}
+if (operation==="subtract")
+{
+return num1-num2;
+}
+if (operation==="divide")
+{
+return num1/num2;
+}
+if (operation==="multiply")
+{
+return num1*num2;
+}
+}
+// part#2 in the homework
+function reverse(string)
+{
+var rev=" ";
+for (var i=string.length-1; i>= 0; i--)
+{
+rev+= string[i];
+}
+return rev
+}
