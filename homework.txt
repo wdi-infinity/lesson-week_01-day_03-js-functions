@@ -1,0 +1,13 @@
+\\This was very hard to think about it 
+function calculator(num1,num2,UserChoice){																								if( UserChoice=="add"){ return num1+num2}																					else if( UserChoice=="Subtract"){ return num1-num2}																		    else if( UserChoice=="multiply"){ return num1*num2}																			else if( UserChoice=="divide"){ return num1/num2}																											
+}					
+undefined
+calculator(3,9,"divide")
+0.3333333333333333
+calculator(3,9,"Subtract")
+-6
+\\\\\\\\\\\\\\\\\\\\\\\
+I don't know why it isn't work 
+function reverseWord(word){
+return reverse().word} 
+reverseWord(Saja)
