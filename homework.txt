@@ -1,0 +1,22 @@
+problem 1
+
+function calculator(num1,num2,opreation){
+    if(opreation === "add"){
+         return num1 + num2 ; }
+    else if(opreation ==="subtract"){
+         return num1 - num2; }
+   else if(opreation === "divide") {
+         return num1 / num2 ; }
+   else if (opreation =="multiply"){
+         return num1 * num2 ;} 
+   else {return ("please choose one of these operations 1- add 2- subtract 3- multiply 4 - divide");} }
+
+problem 2 
+
+var string = "hi";
+string.split('');
+var array = string.split('');
+array
+array.reverse()
+array.join()
+array.join('')
