@@ -1,0 +1,28 @@
+Create a calculator - 01
+
+function calculator(num1 , num2 , operation){ 
+    if (operation === 'add'){
+        return num1 + num2; 
+    } else if(operation === 'subtract'){
+        return num1 - num2;
+    } else if (operation === 'multiply'){
+        return num1 * num2;
+    } else if (operation === 'divide'){
+        return num1/num2;
+    } else {
+        return 'wrong operation'; 
+    }
+}
+
+
+reverse letters - 02
+
+function reversed(word){
+    var n = word.length-1;
+	var reversedWord ='';
+    while(n != -1){
+		reversedWord += word[n];
+       	n -= 1;
+    }
+	return reversedWord; 
+}
