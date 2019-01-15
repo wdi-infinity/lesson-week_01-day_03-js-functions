@@ -1,30 +1,18 @@
 problem 1 :
 
+function calcul(num1, num2, operation) {
+var num1 
+var num2 
+  if (operation === "add") {
+     return num1 + num2 ;}
+if (operation === "sub") {
+     return num1 - num2 ;}
+if (operation === "divide") {
+     return num1 / num2 ;}
+if (operation === "multi") {
+     return num1 * num2 ;}
 
-var input1 = prompt("enter a first number: ");
-var num1 = parseInt(input1)
-var input2 = prompt("enter a second number: ");
-var num2 = parseInt(input2)
-var sign = prompt("enter the sign you want :"); 
-
-
-if ( sign === "+" ) {
-  console.log ( num1 + num2 )
- }
-
-else if ( sign === "-" ) {
-  console.log ( num1 - num2 )
- }
-
-else if ( sign === "*" ) {
-  console.log ( num1 * num2 )
- }
-else if ( sign === "/" ) {
-  console.log ( num1 / num2 )
- }
-
-else {
- console.log (" You shuld enter a numbers with signs"
+}
 
 
  ------------------------------------------------------------------------------------------
