@@ -1,0 +1,33 @@
+Question #1: 
+
+function calculator (num1, num2, operation){
+
+if( operation === "add"){
+return num1 + num2 
+
+} else if (operation === "subtract"){
+
+return num1 - num2
+ 
+} else if (operation === "divide"){
+return num1 / num2 
+
+} else if (operation === "multiply"){
+return num1 * num2
+}
+}
+
+Question #2: * google helped me with this one ;p * \\ https://medium.com/sonyamoisset/reverse-a-string-in-javascript-a18027b8e91c
+
+function reverseInput(input) {
+
+var splitInput = input.split(""); 
+   
+var reverseArray = splitInput.reverse(); 
+
+var joinArray = reverseArray.join(""); 
+
+return joinArray;
+}
+ 
+reverseInput("caterpillar")
