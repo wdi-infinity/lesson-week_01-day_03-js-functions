@@ -1,0 +1,44 @@
+1-Calculator function
+
+
+
+
+function calculator (num1, num2, operation) {
+
+  if (operation == "add"){
+ 
+     return  num1 + num2;
+  }
+ else if (operation == "subtract"){
+ 
+     return  num1 - num2;
+  }
+
+ else  if (operation == "multiply"){
+ 
+     return  num1 * num2;
+  }
+
+ else  if (operation == "divide"){
+ 
+     return  num1 / num2;
+  }
+else {
+return "Wrong enter!";
+}
+}
+
+
+
+2- Reverse
+
+function reverse(a) {
+   
+    var split = a.split(""); 
+    
+    var reverseArray = split.reverse(); 
+    var joinArray = reverseArray.join(""); 
+    
+    
+    return joinArray; 
+}
