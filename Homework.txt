@@ -1,0 +1,41 @@
+problem 1 :
+
+
+var input1 = prompt("enter a first number: ");
+var num1 = parseInt(input1)
+var input2 = prompt("enter a second number: ");
+var num2 = parseInt(input2)
+var sign = prompt("enter the sign you want :"); 
+
+
+if ( sign === "+" ) {
+  console.log ( num1 + num2 )
+ }
+
+else if ( sign === "-" ) {
+  console.log ( num1 - num2 )
+ }
+
+else if ( sign === "*" ) {
+  console.log ( num1 * num2 )
+ }
+else if ( sign === "/" ) {
+  console.log ( num1 / num2 )
+ }
+
+else {
+ console.log (" You shuld enter a numbers with signs"
+
+
+ ------------------------------------------------------------------------------------------
+
+ problem 2 :
+
+ function reverse1(str){
+ var split =  str.split("");
+ var rev =  split.reverse()
+ var join = rev.join("")
+  return join ;
+
+}
+
