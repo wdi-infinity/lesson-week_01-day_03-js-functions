@@ -1,0 +1,41 @@
+Create a calculator 
+
+```
+var num1;
+var num2;
+function calculator (num1, num2, operation) {
+if (operation === 'add' || operation === 'subtract' ||
+ operation === 'multiply' || operation=== 'divide'){
+  var result='';
+  if (operator === 'add') {
+    result = num1 + num2
+  } else if (operator === 'subtract') {
+    result = num1 - num2
+  } else if (operator === 'multiply') {
+    result = num1 * num2
+  } else if (operator === 'divide') {
+    result = num1 / num2
+  }
+  return result;
+   }
+}
+
+```
+
+Write a function to reverse the letters in a word :
+
+```
+var word;
+function reverseString(str) {
+ word = str.split("");
+ word.reverse();
+ str = word.join('');
+ return str;
+}
+// we call the function reverseString () 
+
+reverseString("sara");
+
+// it will return "aras"
+
+```
