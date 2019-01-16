@@ -1,0 +1,22 @@
+function reverseString(str) {
+    return str.split("").reverse().join("");
+}
+reverseString("hello");
+
+
+
+
+
+
+
+function calculator(num1 , num2 , op){
+var result;
+    if(op ==="add"){
+        result=num1+num2;}
+    if(op === "subtract"){
+        result=num1-num2;}
+    if(op=== "divide"){
+        result =num1/num2;}
+    if(op==="multiply"){
+        result=num1*num2;}
+return result;}
