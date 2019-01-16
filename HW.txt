@@ -1,0 +1,27 @@
+function cal(num1,num2)  {
+ 
+var num1 = 1
+var num2 = 2 
+
+if (num1 + num2) {
+return "added"
+}
+
+if (num1 - num2){
+return "substract"
+}
+
+if (num1 / num2 ){
+return "divide"
+}
+
+if (num1 *num2){
+return "multiply"
+}
+else if ("caterpillar") {
+return "rallipretac"
+}
+
+return num1 
+return num2
+}
