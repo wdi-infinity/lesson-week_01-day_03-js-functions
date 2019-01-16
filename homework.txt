@@ -1,1 +1,27 @@
-I couldn't get my homework to work
+//I couldn't get my code to function.
+function opt(num1,num2,op){
+	
+var add, subtract, multiply, divide = "";
+var num1, num2 = "";
+
+	
+	if (op === add) {
+	return (num1+num2)
+        }
+
+	if (op === subtract){
+		console.log(num1 - num2);
+        }
+
+	if (op === multiply){
+		console.log(num1 * num2);
+        }
+
+	if (op === divide){
+		console.log(num1 / num2)
+        }
+
+	else {
+		console.log("ERROR")
+        }
+}
