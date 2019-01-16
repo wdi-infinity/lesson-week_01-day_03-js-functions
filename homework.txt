@@ -1,0 +1,22 @@
+part one
+function calculator (num1 ,num2 ,opration){
+if (opration === 'add') {
+return calculator
+}
+else if (opration === 'subtract') {
+return calculator
+}
+else if (opration == 'multiply') {
+return calculator
+}else(opration === 'divide') {
+return calculator
+}
+
+part two
+
+function reverseString(str) {
+return str;
+}
+
+undefined
+reverseString("hello");
