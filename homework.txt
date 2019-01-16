@@ -1,4 +1,4 @@
-1- Function to Create a calculator:
+//1- Function to Create a calculator:
 
 function calculator(num1, num2, opr){
     if(opr === 'add')
@@ -15,7 +15,7 @@ function calculator(num1, num2, opr){
 
 .................
 
-2- Function to reverse the letters in a word
+// 2- Function to reverse the letters in a word
 
 function reverse( str ){
 var newStr ='';
@@ -23,4 +23,11 @@ var newStr ='';
         newStr += str.charAt(i);
     }
 return newStr;
+}
+
+//or
+
+function reverse( str ){
+
+	return str.split("").reverse().join("");
 }
