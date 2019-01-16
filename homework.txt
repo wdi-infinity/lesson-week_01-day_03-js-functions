@@ -1,0 +1,37 @@
+
+
+var calculat ; 
+function calculator (num1 ,num2 ,calculat ){
+
+if (calculat === add){
+return add = num1 + num2 ;}
+
+if (calculat === subtract){
+return subtract = num1 - num2 ;}
+
+if (calculat === divide){
+return divide = num1 / num2 ; }
+
+if (calculat === multiply){
+ return multiply = num1 * num2 ;}
+}
+
+
+
+
+
+
+
+
+
+// I JUST COPYING CODE FROM GOOGLE BUT I UNDERSTAND HOW IT IS WORK 
+
+function reverseString(str) {
+    var newString = "";
+    for (var i = str.length - 1; i >= 0; i--) {
+        newString += str[i];
+    }
+    return newString;
+}
+reverseString('caterpillar');
+
