@@ -1,0 +1,23 @@
+ymous>:1:1
+(anonymous) @ VM177:1
+function calculator(num1, num2, operation){
+
+// condition to check operation type (if it's add, sustract, ddivide)
+  // add the two numbers and return the value
+   // Or substract the two numbers and return the value
+    // Or multiply the two numbers and return the value
+}
+
+if(){operation ===="add"}
+var result = num1 + num2;
+
+VM206:1 Uncaught SyntaxError: Unexpected token )
+if(operation ===="add"){
+var result = num1 + num2;
+}
+VM212:1 Uncaught SyntaxError: Unexpected token =
+if(operation ==== "add") {
+var result = num1 + num2 ;
+
+}
+VM213:1 Uncaught SyntaxError: Unexpected token =
