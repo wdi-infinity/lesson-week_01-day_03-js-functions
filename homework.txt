@@ -1,1 +1,33 @@
-Here is the solution, it is correct!
+/* create a calculator */
+var num1 = 2;
+var num2 = 4;
+var str  = "";      //this could be add or subtract or divide or multiply
+if (str === 'add')
+{console.log(num1 + num2);}
+else if (str === 'subtract')
+{console.log(num1 - num2);}
+else if (str === 'divide')
+{console.log(num1 / num2);}
+else if (str === 'multiply')
+{console.log(num1 * num2);}
+
+/* create a calculator using function*/
+function calculator(num1,num2,str)
+{
+if (str === 'add'){
+return num1 + num2;}
+else if (str === 'subtract'){
+return num1 - num2;}
+else if (str === 'divide'){
+return num1 / num2;}
+else if (str === 'multiply'){
+return num1 * num2;}
+}
+
+/* Reverse function */
+function Reversestring (str)
+{
+
+return str.split("").reverse().join("");
+
+}
